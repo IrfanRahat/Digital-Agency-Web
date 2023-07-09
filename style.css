@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 20px;
+}
+.nav-logo{
+    padding-left:200px;
+}
+.nav-section ul{
+    display: flex;
+    gap: 10px;
+   padding-top:10px ;
+   padding-right: 200px;
+    
+}
+.nav-section li{
+    font-size: 21px;
+    list-style: none;
+    padding: 0px 20px;
+}
+.banner-container{
+    background-image: url('./asset/image/background.jpg'), linear-gradient(rgb(80, 79, 79), rgba(26, 25, 25, 0.959));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+
+}
