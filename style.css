@@ -42,8 +42,8 @@
 
 .banner-info {
 
-   width: 1000px;
-   margin: auto;
+    width: 1000px;
+    margin: auto;
 
 }
 
@@ -63,11 +63,95 @@
     font-size: 18px;
     color: white;
 }
-.banner-btn{
+
+.banner-btn {
     padding: 12px 20px;
     border: 2px solid transparent;
 }
-.btn-color{
+
+.btn-color {
     background-color: rgb(255, 0, 0);
     color: white;
+}
+
+.service-container {
+    height: 80vh;
+    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgb(46, 45, 45), rgb(2, 2, 2));
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.service-title {
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.service-description {
+    color: white;
+    padding: 15px 0px 20px 30px;
+    width: 50%;
+}
+
+.box {
+    background-color: white;
+    width: 280px;
+    height: 250px;
+    border-radius: 10px;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 10px 0px 0px;
+}
+
+.icons {
+    width: 100px;
+    margin-top: 50px;
+}
+
+.all-box {
+    display: flex;
+
+}
+
+.banner-description {
+    padding-top: 10px;
+}
+
+.service-btn {
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.author-info {
+    color: white;
+    padding: 3px;
+}
+
+.author-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.author-img {
+    border: 1px dotted white;
+    border-radius: 90px
+}
+
+.all-box {
+    margin-right: 50px;
+}
+
+.author-btn {
+    margin-left: 30px;
+}
+.author-flex{
+    border-right: 2px solid red;
+    padding-right: 25px;
 }
