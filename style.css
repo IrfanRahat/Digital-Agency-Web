@@ -155,3 +155,63 @@
     border-right: 2px solid red;
     padding-right: 25px;
 }
+.appointment-container{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+gap: 20px;
+width: 80%;
+margin: auto;
+background-color: red;
+border-radius: 15px;
+margin-top: -80px;
+color: aliceblue;
+
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 20px;
+    /* border-right: 1px solid rgb(0, 0, 0); */
+}
+.blog-description{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* justify-content: space-around; */
+    /* border: 2px solid black; */
+    /* margin: 30px 450px; */
+    gap: 50px;
+    width: 1000px;
+    margin: auto;
+
+
+
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.blog-title{
+    padding: 80px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.blog-para{
+    padding: 10px;
+    /* font-weight: bold; */
+    font-size: 20px;
+    
+    
+}
+.blog1{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(245, 241, 241);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+
+}
