@@ -1,37 +1,73 @@
-*{
+* {
     margin: 0px;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     justify-content: space-between;
     background-color: gray;
     padding: 20px;
 }
-.nav-logo{
-    padding-left:200px;
+
+.nav-logo {
+    padding-left: 200px;
 }
-.nav-section ul{
+
+.nav-section ul {
     display: flex;
     gap: 10px;
-   padding-top:10px ;
-   padding-right: 200px;
-    
+    padding-top: 10px;
+    padding-right: 200px;
+
 }
-.nav-section li{
+
+.nav-section li {
     font-size: 21px;
     list-style: none;
     padding: 0px 20px;
 }
-.banner-container{
+
+.banner-container {
+    height: 100vh;
     background-image: url('./asset/image/background.jpg'), linear-gradient(rgb(80, 79, 79), rgba(26, 25, 25, 0.959));
     background-blend-mode: overlay;
-    height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     display: flex;
     align-items: center;
-    
 
+}
+
+.banner-info {
+
+   width: 1000px;
+   margin: auto;
+
+}
+
+.banner-text {
+    color: red;
+}
+
+.banner-title {
+    margin-bottom: 40px;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(233, 233, 233);
+}
+
+.banner-description {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white;
+}
+.banner-btn{
+    padding: 12px 20px;
+    border: 2px solid transparent;
+}
+.btn-color{
+    background-color: rgb(255, 0, 0);
+    color: white;
 }
