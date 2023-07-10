@@ -151,32 +151,36 @@
 .author-btn {
     margin-left: 30px;
 }
-.author-flex{
+
+.author-flex {
     border-right: 2px solid red;
     padding-right: 25px;
 }
-.appointment-container{
-display: flex;
-justify-content: center;
-align-items: center;
-padding-top: 20px;
-gap: 20px;
-width: 80%;
-margin: auto;
-background-color: red;
-border-radius: 15px;
-margin-top: -80px;
-color: aliceblue;
+
+.appointment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    background-color: red;
+    border-radius: 15px;
+    margin-top: -80px;
+    color: aliceblue;
 
 }
-.phone-call{
+
+.phone-call {
     display: flex;
     align-items: center;
     padding-bottom: 30px;
     gap: 20px;
     /* border-right: 1px solid rgb(0, 0, 0); */
 }
-.blog-description{
+
+.blog-description {
     display: flex;
     align-items: center;
     text-align: center;
@@ -190,24 +194,28 @@ color: aliceblue;
 
 
 }
-.blog-img{
+
+.blog-img {
     width: 100%;
     border-radius: 5px;
 }
-.blog-title{
+
+.blog-title {
     padding: 80px;
     text-align: center;
     font-size: 30px;
 
 }
-.blog-para{
+
+.blog-para {
     padding: 10px;
     /* font-weight: bold; */
     font-size: 20px;
-    
-    
+
+
 }
-.blog1{
+
+.blog1 {
     width: 300px;
     height: 400px;
     background-color: rgb(245, 241, 241);
@@ -215,7 +223,8 @@ color: aliceblue;
     box-shadow: 5px 5px 5px gray;
 
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     justify-content: space-around;
     background-color: black;
@@ -227,18 +236,21 @@ color: aliceblue;
     list-style: none;
 
 }
-.footer-links li, .footer-support li, .footer-contact li{
+
+.footer-links li,
+.footer-support li,
+.footer-contact li {
     margin: 20px;
-  
+
 
 }
-.footer-head{
+
+.footer-head {
     margin-left: 20px;
 }
 
-.copyright{
+.copyright {
     background-color: black;
     text-align: center;
     color: white;
 }
-
