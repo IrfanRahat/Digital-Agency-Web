@@ -235,3 +235,10 @@ color: aliceblue;
 .footer-head{
     margin-left: 20px;
 }
+
+.copyright{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
